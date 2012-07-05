@@ -14,3 +14,15 @@ Description: Facebook's distributed, streaming log server
  from a large number of servers. It is designed to be scalable,
  extensible without client-side modification, and robust to failure of
  the network or any specific machine.
+
+Package: libscribe-java
+Architecture: any
+Section: java
+Depends: ${misc:Depends}, java-common, libslf4j-java, libthrift-java, libfb303-java
+Description: Java Thrift bindings for Facebook's Scribe logging service.
+ A Java Thrift standard interface to Facebook's Scribe logging service.
+ .
+ This package contains the Java bindings for scribe via Thrift. You will need the thrift
+ tool (in the thrift-compiler package) to compile your definition to Java
+ classes, and then the modules in this package will allow you to use those
+ classes in your programs. 
