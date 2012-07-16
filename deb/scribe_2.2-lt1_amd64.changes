@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Mon, 16 Jul 2012 16:56:04 +0000
+Source: scribe
+Binary: scribe
+Architecture: source amd64
+Version: 2.2-lt1
+Distribution: precise
+Urgency: low
+Maintainer: Erik Steigler <erik@lot18.com>
+Changed-By: Erik Steigler <erik@lot18.com>
+Description: 
+ scribe     - Facebook's distributed, streaming log server
+Changes: 
+ scribe (2.2-lt1) precise; urgency=low
+ .
+   * Add CPPFLAGS to compile on 12.04
+   * Remove java scribe library since its not in upstream
+ .
+   [ Erik Steigler ]
+Checksums-Sha1: 
+ 0fa87c535c97fa25cc883f0647a44c8d4570918a 642 scribe_2.2-lt1.dsc
+ 4c0aee30e47ad414fbadbfb51783f06dcdf2662e 1456656 scribe_2.2-lt1.tar.gz
+ 83766131c5736f330d68ca7553a2829767eaba7b 319972 scribe_2.2-lt1_amd64.deb
+Checksums-Sha256: 
+ 24020d3c8567be2127d80257402bc790d205b4b86745df2d601c19dd04a7d24a 642 scribe_2.2-lt1.dsc
+ e9e4e46fd72bd399ba9b3930e47eb21fd790732fb33f0e8be82e5f275245c057 1456656 scribe_2.2-lt1.tar.gz
+ 662d61b895bcfe762a55bf27122aa9b45d4cbd520491c3bcb94e5f9126fb77af 319972 scribe_2.2-lt1_amd64.deb
+Files: 
+ cc356651aed4ca265621139b02ff8ae9 642 net extra scribe_2.2-lt1.dsc
+ 98ba321a49381b83d36197c34d75c02b 1456656 net extra scribe_2.2-lt1.tar.gz
+ 282f22d028b39555acb2e8769c04b10b 319972 net extra scribe_2.2-lt1_amd64.deb
