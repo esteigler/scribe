@@ -1,6 +1,7 @@
 scribe (2.2-lt1) precise; urgency=low
 
   * Add CPPFLAGS to compile on 12.04
+  * Remove java scribe library since its not in upstream
 
   [ Erik Steigler ]
 
