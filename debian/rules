@@ -34,8 +34,8 @@ config.status:
 	$(CURDIR)/bootstrap.sh
 	$(CURDIR)/configure --prefix=/usr --with-thriftpath=/usr \
                         --with-fb303path=/usr \
-                        --enable-hdfs --with-hadooppath=/usr/lib \
-                        CFLAGS="$(CFLAGS)" LDFLAGS="$(LDFLAGS)" CXXFLAGS="$(CFLAGS)"
+                        CFLAGS="$(CFLAGS)" LDFLAGS="$(LDFLAGS)" CXXFLAGS="$(CFLAGS)" \
+						CPPFLAGS="-DHAVE_INTTYPES_H -DHAVE_NETINET_IN_H -DBOOST_FILESYSTEM_VERSION=2" LIBS="-lboost_system -lboost_filesystem"
 
 build: build-stamp
 
